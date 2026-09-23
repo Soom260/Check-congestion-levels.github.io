@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>지금 어디가 한산해?</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>지금 어디가 한산해?</h1>
+    <p class="subtitle">서울시 실시간 도시데이터로 약속 장소 혼잡도를 비교해요</p>
+  </header>
+
+  <main>
+    <section class="recommend-banner" id="recommend-banner">
+      <p id="recommend-text">후보지를 추가해 보세요</p>
+    </section>
+
+    <section class="search-section">
+      <label for="place-search">장소 검색해서 후보지 추가</label>
+      <input type="text" id="place-search" placeholder="예: 강남역, 홍대, 성수..." autocomplete="off">
+      <div id="search-results" class="search-results"></div>
+    </section>
+
+    <section class="cards-section">
+      <div id="cards-container" class="cards-container"></div>
+      <p id="empty-message" class="empty-message">아직 선택한 후보지가 없어요. 위에서 검색해 추가해 주세요.</p>
+    </section>
+
+    <section class="chart-section" id="chart-section" hidden>
+      <h2>12시간 예측 혼잡도</h2>
+      <canvas id="forecast-chart"></canvas>
+    </section>
+  </main>
+
+  <footer>
+    <p id="last-updated">데이터 갱신 시각 확인 중...</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.5.1/chart.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

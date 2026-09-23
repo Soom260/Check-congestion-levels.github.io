@@ -1,0 +1,237 @@
+:root {
+  --bg: #f7f7fb;
+  --card-bg: #ffffff;
+  --text: #1f2230;
+  --text-muted: #6b7080;
+  --border: #e4e4ec;
+  --accent: #5b5fef;
+
+  --level-여유: #2fb872;
+  --level-보통: #4d90fe;
+  --level-약간-붐빔: #f5a623;
+  --level-붐빔: #e5484d;
+  --level-알수없음: #9aa0ab;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Apple SD Gothic Neo", "Malgun Gothic", -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+header {
+  padding: 32px 20px 16px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0 0 6px;
+  font-size: 1.7rem;
+}
+
+.subtitle {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 16px 40px;
+}
+
+/* 상단 추천 배너 */
+.recommend-banner {
+  background: linear-gradient(135deg, var(--accent), #8b8ff5);
+  color: #fff;
+  border-radius: 16px;
+  padding: 18px 20px;
+  margin: 16px 0 24px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+/* 장소 검색 */
+.search-section {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.search-section label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+#place-search {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--card-bg);
+}
+
+#place-search:focus {
+  outline: 2px solid var(--accent);
+}
+
+.search-results {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: 10;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  margin-top: 4px;
+  max-height: 240px;
+  overflow-y: auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.search-results:empty {
+  display: none;
+}
+
+.search-result-item {
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.search-result-item:hover {
+  background: var(--bg);
+}
+
+/* 카드 목록 */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px;
+}
+
+.empty-message {
+  color: var(--text-muted);
+  text-align: center;
+  padding: 24px 0;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px;
+  position: relative;
+  border-left: 6px solid var(--level-알수없음);
+}
+
+.card.level-여유 { border-left-color: var(--level-여유); }
+.card.level-보통 { border-left-color: var(--level-보통); }
+.card.level-약간-붐빔 { border-left-color: var(--level-약간-붐빔); }
+.card.level-붐빔 { border-left-color: var(--level-붐빔); }
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.card-remove {
+  border: none;
+  background: none;
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 2px 4px;
+}
+
+.card-badge {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.card-badge.level-여유 { background: var(--level-여유); }
+.card-badge.level-보통 { background: var(--level-보통); }
+.card-badge.level-약간-붐빔 { background: var(--level-약간-붐빔); }
+.card-badge.level-붐빔 { background: var(--level-붐빔); }
+.card-badge.level-알수없음 { background: var(--level-알수없음); }
+
+.card-population {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.card-updated {
+  margin-top: 6px;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.card-error {
+  margin-top: 10px;
+  font-size: 0.82rem;
+  color: var(--level-붐빔);
+}
+
+.card.recommended {
+  outline: 2px solid var(--level-여유);
+}
+
+.card-crown {
+  font-size: 0.85rem;
+  margin-left: 6px;
+}
+
+/* 예측 그래프 */
+.chart-section {
+  margin-top: 32px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px;
+}
+
+.chart-section h2 {
+  font-size: 1rem;
+  margin: 0 0 12px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.4rem;
+  }
+
+  .cards-container {
+    grid-template-columns: 1fr;
+  }
+}
