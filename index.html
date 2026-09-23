@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>지금 어디가 한산해?</title>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 </head>
 <body>
   <header>
@@ -13,6 +14,10 @@
   </header>
 
   <main>
+    <section class="map-section">
+      <div id="map"></div>
+    </section>
+
     <section class="recommend-banner" id="recommend-banner">
       <p id="recommend-text">후보지를 추가해 보세요</p>
     </section>
@@ -38,6 +43,7 @@
     <p id="last-updated">데이터 갱신 시각 확인 중...</p>
   </footer>
 
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.5.1/chart.min.js"></script>
   <script src="app.js"></script>
 </body>

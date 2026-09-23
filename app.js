@@ -7,10 +7,46 @@ const MAX_CANDIDATES = 5;
 // 혼잡도 단계를 숫자로 바꿔서 비교(정렬/추천)에 쓴다. 값이 작을수록 한산하다.
 const LEVEL_ORDER = { "여유": 0, "보통": 1, "약간 붐빔": 2, "붐빔": 3 };
 
+// 카드 배지와 같은 색을 지도 마커에도 써서 한눈에 매칭되게 한다.
+const LEVEL_COLOR = {
+  "여유": "#2fb872",
+  "보통": "#4d90fe",
+  "약간 붐빔": "#f5a623",
+  "붐빔": "#e5484d",
+};
+const LEVEL_COLOR_UNKNOWN = "#9aa0ab";
+
+// 서울시 API 응답에는 좌표가 없어서 지도 표시용 위경도를 직접 넣어둔다 (장소 20곳 고정).
+const PLACE_COORDS = {
+  "강남역": [37.4979, 127.0276],
+  "홍대입구역(2호선)": [37.5563, 126.9236],
+  "이태원 관광특구": [37.5344, 126.9946],
+  "명동 관광특구": [37.5636, 126.9834],
+  "성수카페거리": [37.5446, 127.0559],
+  "여의도한강공원": [37.5285, 126.9335],
+  "잠실역": [37.5133, 127.1001],
+  "잠실롯데타워·석촌호수": [37.5125, 127.1025],
+  "압구정로데오거리": [37.5273, 127.0402],
+  "건대입구역": [37.5403, 127.0699],
+  "신촌·이대역": [37.5599, 126.9425],
+  "종로·청계 관광특구": [37.5703, 126.9910],
+  "광화문·덕수궁": [37.5759, 126.9769],
+  "동대문 관광특구": [37.5709, 127.0095],
+  "인사동": [37.5744, 126.9856],
+  "익선동": [37.5730, 126.9910],
+  "연남동": [37.5629, 126.9254],
+  "서울숲공원": [37.5443, 127.0374],
+  "가로수길": [37.5202, 127.0229],
+  "청담동 명품거리": [37.5245, 127.0473],
+};
+const SEOUL_CENTER = [37.5665, 126.9780];
+
 // ── 상태 ──────────────────────────────────────────────
 let congestionData = null; // 마지막으로 불러온 data/congestion.json 전체
 let selectedPlaces = loadSelectedPlaces();
 let chart = null;
+let leafletMap = null;
+let mapMarkers = {}; // 장소명 -> L.marker
 
 // ── localStorage ──────────────────────────────────────
 function loadSelectedPlaces() {
@@ -42,6 +78,7 @@ function renderAll() {
   renderRecommendBanner();
   renderFooter();
   renderChart();
+  renderMap();
 }
 
 function levelClass(level) {
@@ -229,6 +266,63 @@ function renderChart() {
   });
 }
 
+// ── 지도 ──────────────────────────────────────────────
+function initMap() {
+  // Leaflet CDN 로드가 실패해도(네트워크 문제 등) 나머지 화면은 정상 동작해야 한다.
+  if (typeof L === "undefined") return;
+  leafletMap = L.map("map").setView(SEOUL_CENTER, 11);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: "&copy; OpenStreetMap contributors",
+    maxZoom: 19,
+  }).addTo(leafletMap);
+}
+
+function renderMap() {
+  if (!leafletMap) return;
+
+  const places = congestionData?.places || {};
+
+  // 더 이상 선택되지 않은 장소의 마커는 지운다.
+  for (const name of Object.keys(mapMarkers)) {
+    if (!selectedPlaces.includes(name)) {
+      leafletMap.removeLayer(mapMarkers[name]);
+      delete mapMarkers[name];
+    }
+  }
+
+  for (const name of selectedPlaces) {
+    const coords = PLACE_COORDS[name];
+    if (!coords) continue;
+
+    const info = places[name];
+    const level = info?.status === "ok" ? info.congest_level : null;
+    const color = LEVEL_COLOR[level] || LEVEL_COLOR_UNKNOWN;
+    const popupText = level ? `${name} · ${level}` : `${name} · 정보 없음`;
+
+    if (mapMarkers[name]) {
+      mapMarkers[name].setStyle({ color, fillColor: color });
+      mapMarkers[name].setPopupContent(popupText);
+    } else {
+      mapMarkers[name] = L.circleMarker(coords, {
+        radius: 10,
+        color,
+        fillColor: color,
+        fillOpacity: 0.9,
+        weight: 2,
+      })
+        .addTo(leafletMap)
+        .bindPopup(popupText);
+    }
+  }
+
+  const activeCoords = selectedPlaces.map((name) => PLACE_COORDS[name]).filter(Boolean);
+  if (activeCoords.length > 0) {
+    leafletMap.fitBounds(activeCoords, { padding: [40, 40], maxZoom: 15 });
+  } else {
+    leafletMap.setView(SEOUL_CENTER, 11);
+  }
+}
+
 // ── 장소 검색/추가/삭제 ────────────────────────────────
 function renderSearchResults(query) {
   const resultsEl = document.getElementById("search-results");
@@ -269,6 +363,8 @@ function removePlace(name) {
 }
 
 // ── 초기화 ────────────────────────────────────────────
+initMap();
+
 document.getElementById("place-search").addEventListener("input", (e) => {
   renderSearchResults(e.target.value.trim());
 });
