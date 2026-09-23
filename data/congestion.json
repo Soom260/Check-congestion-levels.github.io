@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-23T16:46:14.015132+09:00",
+  "collected_at": "2026-09-23T16:53:59.604618+09:00",
   "places": {
     "강남역": {
       "status": "ok",
@@ -9,7 +9,7 @@
       "congest_message": "사람들이 몰려있을 가능성이 크고 붐빈다고 느낄 수 있어요. 인구밀도가 높은 구간에서는 도보 이동시 부딪힘이 발생할 수 있어요.",
       "population_min": 80000,
       "population_max": 82000,
-      "updated_at": "2026-09-23 16:15",
+      "updated_at": "2026-09-23 16:25",
       "forecast": [
         {
           "time": "2026-09-23 17:00",
@@ -93,7 +93,7 @@
       "congest_message": "사람들이 몰려있을 가능성이 크고 붐빈다고 느낄 수 있어요. 인구밀도가 높은 구간에서는 도보 이동시 부딪힘이 발생할 수 있어요.",
       "population_min": 20000,
       "population_max": 22000,
-      "updated_at": "2026-09-23 16:15",
+      "updated_at": "2026-09-23 16:25",
       "forecast": [
         {
           "time": "2026-09-23 17:00",
@@ -177,7 +177,7 @@
       "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
       "population_min": 10000,
       "population_max": 12000,
-      "updated_at": "2026-09-23 16:15",
+      "updated_at": "2026-09-23 16:25",
       "forecast": [
         {
           "time": "2026-09-23 17:00",
@@ -259,9 +259,9 @@
       "area_nm": "명동 관광특구",
       "congest_level": "보통",
       "congest_message": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
-      "population_min": 94000,
-      "population_max": 96000,
-      "updated_at": "2026-09-23 16:15",
+      "population_min": 92000,
+      "population_max": 94000,
+      "updated_at": "2026-09-23 16:25",
       "forecast": [
         {
           "time": "2026-09-23 17:00",
@@ -343,9 +343,9 @@
       "area_nm": "성수카페거리",
       "congest_level": "보통",
       "congest_message": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
-      "population_min": 34000,
-      "population_max": 36000,
-      "updated_at": "2026-09-23 16:15",
+      "population_min": 32000,
+      "population_max": 34000,
+      "updated_at": "2026-09-23 16:25",
       "forecast": [
         {
           "time": "2026-09-23 17:00",
@@ -429,7 +429,7 @@
       "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
       "population_min": 6000,
       "population_max": 6500,
-      "updated_at": "2026-09-23 16:15",
+      "updated_at": "2026-09-23 16:25",
       "forecast": [
         {
           "time": "2026-09-23 17:00",
@@ -513,7 +513,7 @@
       "congest_message": "사람들이 몰려있을 가능성이 크고 붐빈다고 느낄 수 있어요. 인구밀도가 높은 구간에서는 도보 이동시 부딪힘이 발생할 수 있어요.",
       "population_min": 34000,
       "population_max": 36000,
-      "updated_at": "2026-09-23 16:15",
+      "updated_at": "2026-09-23 16:25",
       "forecast": [
         {
           "time": "2026-09-23 17:00",
@@ -595,9 +595,9 @@
       "area_nm": "잠실롯데타워·석촌호수",
       "congest_level": "약간 붐빔",
       "congest_message": "사람들이 몰려있을 가능성이 크고 붐빈다고 느낄 수 있어요. 인구밀도가 높은 구간에서는 도보 이동시 부딪힘이 발생할 수 있어요.",
-      "population_min": 60000,
-      "population_max": 62000,
-      "updated_at": "2026-09-23 16:15",
+      "population_min": 58000,
+      "population_max": 60000,
+      "updated_at": "2026-09-23 16:25",
       "forecast": [
         {
           "time": "2026-09-23 17:00",
@@ -681,7 +681,7 @@
       "congest_message": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
       "population_min": 32000,
       "population_max": 34000,
-      "updated_at": "2026-09-23 16:15",
+      "updated_at": "2026-09-23 16:25",
       "forecast": [
         {
           "time": "2026-09-23 17:00",
@@ -765,7 +765,7 @@
       "congest_message": "사람들이 몰려있을 가능성이 크고 붐빈다고 느낄 수 있어요. 인구밀도가 높은 구간에서는 도보 이동시 부딪힘이 발생할 수 있어요.",
       "population_min": 28000,
       "population_max": 30000,
-      "updated_at": "2026-09-23 16:15",
+      "updated_at": "2026-09-23 16:25",
       "forecast": [
         {
           "time": "2026-09-23 17:00",
@@ -847,9 +847,9 @@
       "area_nm": "신촌·이대역",
       "congest_level": "보통",
       "congest_message": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
-      "population_min": 34000,
-      "population_max": 36000,
-      "updated_at": "2026-09-23 16:15",
+      "population_min": 32000,
+      "population_max": 34000,
+      "updated_at": "2026-09-23 16:25",
       "forecast": [
         {
           "time": "2026-09-23 17:00",
@@ -933,7 +933,7 @@
       "congest_message": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
       "population_min": 42000,
       "population_max": 44000,
-      "updated_at": "2026-09-23 16:15",
+      "updated_at": "2026-09-23 16:25",
       "forecast": [
         {
           "time": "2026-09-23 17:00",
@@ -1017,7 +1017,7 @@
       "congest_message": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
       "population_min": 38000,
       "population_max": 40000,
-      "updated_at": "2026-09-23 16:15",
+      "updated_at": "2026-09-23 16:25",
       "forecast": [
         {
           "time": "2026-09-23 17:00",
@@ -1101,7 +1101,7 @@
       "congest_message": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
       "population_min": 26000,
       "population_max": 28000,
-      "updated_at": "2026-09-23 16:15",
+      "updated_at": "2026-09-23 16:25",
       "forecast": [
         {
           "time": "2026-09-23 17:00",
@@ -1185,7 +1185,7 @@
       "congest_message": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
       "population_min": 20000,
       "population_max": 22000,
-      "updated_at": "2026-09-23 16:15",
+      "updated_at": "2026-09-23 16:25",
       "forecast": [
         {
           "time": "2026-09-23 17:00",
@@ -1269,7 +1269,7 @@
       "congest_message": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
       "population_min": 12000,
       "population_max": 14000,
-      "updated_at": "2026-09-23 16:15",
+      "updated_at": "2026-09-23 16:25",
       "forecast": [
         {
           "time": "2026-09-23 17:00",
@@ -1353,7 +1353,7 @@
       "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
       "population_min": 9500,
       "population_max": 10000,
-      "updated_at": "2026-09-23 16:15",
+      "updated_at": "2026-09-23 16:25",
       "forecast": [
         {
           "time": "2026-09-23 17:00",
@@ -1437,7 +1437,7 @@
       "congest_message": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
       "population_min": 4500,
       "population_max": 5000,
-      "updated_at": "2026-09-23 16:15",
+      "updated_at": "2026-09-23 16:25",
       "forecast": [
         {
           "time": "2026-09-23 17:00",
@@ -1521,7 +1521,7 @@
       "congest_message": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
       "population_min": 30000,
       "population_max": 32000,
-      "updated_at": "2026-09-23 16:15",
+      "updated_at": "2026-09-23 16:25",
       "forecast": [
         {
           "time": "2026-09-23 17:00",
@@ -1605,7 +1605,7 @@
       "congest_message": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
       "population_min": 8000,
       "population_max": 8500,
-      "updated_at": "2026-09-23 16:15",
+      "updated_at": "2026-09-23 16:25",
       "forecast": [
         {
           "time": "2026-09-23 17:00",
