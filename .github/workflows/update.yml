@@ -2,9 +2,9 @@ name: 혼잡도 데이터 갱신
 
 on:
   schedule:
-    # 30분마다 자동 실행 (UTC 기준, KST는 +9시간).
+    # 매시 정각 자동 실행 (UTC 기준, KST는 +9시간).
     # GitHub Actions의 cron은 부하에 따라 실제 실행이 지연될 수 있다.
-    - cron: "*/30 * * * *"
+    - cron: "0 * * * *"
   workflow_dispatch: {} # Actions 탭에서 수동 실행 가능
 
 permissions:
