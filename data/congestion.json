@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-24T11:14:06.774294+09:00",
+  "collected_at": "2026-09-24T12:14:02.721620+09:00",
   "places": {
     "강남역": {
       "status": "ok",
@@ -7,33 +7,27 @@
       "area_nm": "강남역",
       "congest_level": "보통",
       "congest_message": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
-      "population_min": 52000,
-      "population_max": 54000,
-      "updated_at": "2026-09-24 10:45",
+      "population_min": 58000,
+      "population_max": 60000,
+      "updated_at": "2026-09-24 11:45",
       "forecast": [
         {
-          "time": "2026-09-24 12:00",
+          "time": "2026-09-24 13:00",
           "level": "보통",
-          "population_min": 60000,
-          "population_max": 62000
+          "population_min": 62000,
+          "population_max": 64000
         },
         {
-          "time": "2026-09-24 13:00",
+          "time": "2026-09-24 14:00",
           "level": "보통",
           "population_min": 64000,
           "population_max": 66000
         },
         {
-          "time": "2026-09-24 14:00",
-          "level": "약간 붐빔",
-          "population_min": 68000,
-          "population_max": 70000
-        },
-        {
           "time": "2026-09-24 15:00",
-          "level": "약간 붐빔",
-          "population_min": 68000,
-          "population_max": 70000
+          "level": "보통",
+          "population_min": 66000,
+          "population_max": 68000
         },
         {
           "time": "2026-09-24 16:00",
@@ -50,8 +44,8 @@
         {
           "time": "2026-09-24 18:00",
           "level": "보통",
-          "population_min": 64000,
-          "population_max": 66000
+          "population_min": 62000,
+          "population_max": 64000
         },
         {
           "time": "2026-09-24 19:00",
@@ -74,14 +68,20 @@
         {
           "time": "2026-09-24 22:00",
           "level": "여유",
-          "population_min": 36000,
-          "population_max": 38000
+          "population_min": 38000,
+          "population_max": 40000
         },
         {
           "time": "2026-09-24 23:00",
           "level": "여유",
-          "population_min": 30000,
-          "population_max": 32000
+          "population_min": 28000,
+          "population_max": 30000
+        },
+        {
+          "time": "2026-09-25 00:00",
+          "level": "여유",
+          "population_min": 26000,
+          "population_max": 28000
         }
       ]
     },
@@ -91,19 +91,13 @@
       "area_nm": "홍대입구역(2호선)",
       "congest_level": "여유",
       "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
-      "population_min": 12000,
-      "population_max": 14000,
-      "updated_at": "2026-09-24 10:45",
+      "population_min": 14000,
+      "population_max": 16000,
+      "updated_at": "2026-09-24 11:45",
       "forecast": [
         {
-          "time": "2026-09-24 12:00",
-          "level": "보통",
-          "population_min": 16000,
-          "population_max": 18000
-        },
-        {
           "time": "2026-09-24 13:00",
-          "level": "약간 붐빔",
+          "level": "보통",
           "population_min": 18000,
           "population_max": 20000
         },
@@ -115,43 +109,43 @@
         },
         {
           "time": "2026-09-24 15:00",
-          "level": "붐빔",
-          "population_min": 24000,
-          "population_max": 26000
+          "level": "약간 붐빔",
+          "population_min": 20000,
+          "population_max": 22000
         },
         {
           "time": "2026-09-24 16:00",
           "level": "붐빔",
-          "population_min": 26000,
-          "population_max": 28000
+          "population_min": 22000,
+          "population_max": 24000
         },
         {
           "time": "2026-09-24 17:00",
-          "level": "붐빔",
-          "population_min": 26000,
-          "population_max": 28000
-        },
-        {
-          "time": "2026-09-24 18:00",
-          "level": "붐빔",
-          "population_min": 26000,
-          "population_max": 28000
-        },
-        {
-          "time": "2026-09-24 19:00",
           "level": "붐빔",
           "population_min": 24000,
           "population_max": 26000
         },
         {
-          "time": "2026-09-24 20:00",
-          "level": "약간 붐빔",
+          "time": "2026-09-24 18:00",
+          "level": "붐빔",
+          "population_min": 24000,
+          "population_max": 26000
+        },
+        {
+          "time": "2026-09-24 19:00",
+          "level": "붐빔",
           "population_min": 22000,
           "population_max": 24000
         },
         {
-          "time": "2026-09-24 21:00",
+          "time": "2026-09-24 20:00",
           "level": "약간 붐빔",
+          "population_min": 20000,
+          "population_max": 22000
+        },
+        {
+          "time": "2026-09-24 21:00",
+          "level": "보통",
           "population_min": 18000,
           "population_max": 20000
         },
@@ -166,6 +160,12 @@
           "level": "여유",
           "population_min": 10000,
           "population_max": 12000
+        },
+        {
+          "time": "2026-09-25 00:00",
+          "level": "여유",
+          "population_min": 8000,
+          "population_max": 8500
         }
       ]
     },
@@ -175,21 +175,15 @@
       "area_nm": "이태원 관광특구",
       "congest_level": "여유",
       "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
-      "population_min": 4500,
-      "population_max": 5000,
-      "updated_at": "2026-09-24 10:45",
+      "population_min": 5500,
+      "population_max": 6000,
+      "updated_at": "2026-09-24 11:45",
       "forecast": [
-        {
-          "time": "2026-09-24 12:00",
-          "level": "여유",
-          "population_min": 5500,
-          "population_max": 6000
-        },
         {
           "time": "2026-09-24 13:00",
           "level": "여유",
-          "population_min": 6500,
-          "population_max": 7000
+          "population_min": 7000,
+          "population_max": 7500
         },
         {
           "time": "2026-09-24 14:00",
@@ -200,12 +194,12 @@
         {
           "time": "2026-09-24 15:00",
           "level": "여유",
-          "population_min": 8000,
-          "population_max": 8500
+          "population_min": 8500,
+          "population_max": 9000
         },
         {
           "time": "2026-09-24 16:00",
-          "level": "여유",
+          "level": "보통",
           "population_min": 8500,
           "population_max": 9000
         },
@@ -247,9 +241,15 @@
         },
         {
           "time": "2026-09-24 23:00",
+          "level": "여유",
+          "population_min": 8000,
+          "population_max": 8500
+        },
+        {
+          "time": "2026-09-25 00:00",
           "level": "보통",
-          "population_min": 9000,
-          "population_max": 9500
+          "population_min": 9500,
+          "population_max": 10000
         }
       ]
     },
@@ -259,81 +259,81 @@
       "area_nm": "명동 관광특구",
       "congest_level": "보통",
       "congest_message": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
-      "population_min": 60000,
-      "population_max": 62000,
-      "updated_at": "2026-09-24 10:45",
+      "population_min": 64000,
+      "population_max": 66000,
+      "updated_at": "2026-09-24 11:45",
       "forecast": [
         {
-          "time": "2026-09-24 12:00",
+          "time": "2026-09-24 13:00",
           "level": "보통",
-          "population_min": 72000,
-          "population_max": 74000
+          "population_min": 76000,
+          "population_max": 78000
         },
         {
-          "time": "2026-09-24 13:00",
+          "time": "2026-09-24 14:00",
           "level": "약간 붐빔",
           "population_min": 82000,
           "population_max": 84000
         },
         {
-          "time": "2026-09-24 14:00",
-          "level": "약간 붐빔",
-          "population_min": 86000,
-          "population_max": 88000
-        },
-        {
           "time": "2026-09-24 15:00",
           "level": "약간 붐빔",
-          "population_min": 88000,
-          "population_max": 90000
+          "population_min": 82000,
+          "population_max": 84000
         },
         {
           "time": "2026-09-24 16:00",
-          "level": "약간 붐빔",
-          "population_min": 84000,
-          "population_max": 86000
+          "level": "보통",
+          "population_min": 78000,
+          "population_max": 80000
         },
         {
           "time": "2026-09-24 17:00",
           "level": "보통",
-          "population_min": 74000,
-          "population_max": 76000
+          "population_min": 68000,
+          "population_max": 70000
         },
         {
           "time": "2026-09-24 18:00",
           "level": "보통",
-          "population_min": 62000,
-          "population_max": 64000
+          "population_min": 56000,
+          "population_max": 58000
         },
         {
           "time": "2026-09-24 19:00",
           "level": "여유",
-          "population_min": 50000,
-          "population_max": 52000
+          "population_min": 44000,
+          "population_max": 46000
         },
         {
           "time": "2026-09-24 20:00",
           "level": "여유",
-          "population_min": 38000,
-          "population_max": 40000
+          "population_min": 34000,
+          "population_max": 36000
         },
         {
           "time": "2026-09-24 21:00",
           "level": "여유",
-          "population_min": 28000,
-          "population_max": 30000
+          "population_min": 24000,
+          "population_max": 26000
         },
         {
           "time": "2026-09-24 22:00",
           "level": "여유",
-          "population_min": 20000,
-          "population_max": 22000
+          "population_min": 16000,
+          "population_max": 18000
         },
         {
           "time": "2026-09-24 23:00",
           "level": "여유",
-          "population_min": 18000,
-          "population_max": 20000
+          "population_min": 12000,
+          "population_max": 14000
+        },
+        {
+          "time": "2026-09-25 00:00",
+          "level": "여유",
+          "population_min": 12000,
+          "population_max": 14000
         }
       ]
     },
@@ -343,27 +343,21 @@
       "area_nm": "성수카페거리",
       "congest_level": "보통",
       "congest_message": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
-      "population_min": 22000,
-      "population_max": 24000,
-      "updated_at": "2026-09-24 10:45",
+      "population_min": 24000,
+      "population_max": 26000,
+      "updated_at": "2026-09-24 11:45",
       "forecast": [
         {
-          "time": "2026-09-24 12:00",
-          "level": "보통",
+          "time": "2026-09-24 13:00",
+          "level": "약간 붐빔",
           "population_min": 28000,
           "population_max": 30000
         },
         {
-          "time": "2026-09-24 13:00",
+          "time": "2026-09-24 14:00",
           "level": "약간 붐빔",
           "population_min": 30000,
           "population_max": 32000
-        },
-        {
-          "time": "2026-09-24 14:00",
-          "level": "약간 붐빔",
-          "population_min": 32000,
-          "population_max": 34000
         },
         {
           "time": "2026-09-24 15:00",
@@ -380,8 +374,8 @@
         {
           "time": "2026-09-24 17:00",
           "level": "약간 붐빔",
-          "population_min": 34000,
-          "population_max": 36000
+          "population_min": 32000,
+          "population_max": 34000
         },
         {
           "time": "2026-09-24 18:00",
@@ -416,8 +410,14 @@
         {
           "time": "2026-09-24 23:00",
           "level": "여유",
-          "population_min": 14000,
-          "population_max": 16000
+          "population_min": 12000,
+          "population_max": 14000
+        },
+        {
+          "time": "2026-09-25 00:00",
+          "level": "여유",
+          "population_min": 10000,
+          "population_max": 12000
         }
       ]
     },
@@ -427,16 +427,10 @@
       "area_nm": "여의도한강공원",
       "congest_level": "여유",
       "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
-      "population_min": 3000,
-      "population_max": 3500,
-      "updated_at": "2026-09-24 10:45",
+      "population_min": 3500,
+      "population_max": 4000,
+      "updated_at": "2026-09-24 11:45",
       "forecast": [
-        {
-          "time": "2026-09-24 12:00",
-          "level": "여유",
-          "population_min": 3500,
-          "population_max": 4000
-        },
         {
           "time": "2026-09-24 13:00",
           "level": "여유",
@@ -452,56 +446,62 @@
         {
           "time": "2026-09-24 15:00",
           "level": "보통",
+          "population_min": 5500,
+          "population_max": 6000
+        },
+        {
+          "time": "2026-09-24 16:00",
+          "level": "보통",
           "population_min": 6000,
           "population_max": 6500
         },
         {
-          "time": "2026-09-24 16:00",
-          "level": "약간 붐빔",
-          "population_min": 6500,
-          "population_max": 7000
-        },
-        {
           "time": "2026-09-24 17:00",
-          "level": "약간 붐빔",
-          "population_min": 6500,
-          "population_max": 7000
+          "level": "보통",
+          "population_min": 6000,
+          "population_max": 6500
         },
         {
           "time": "2026-09-24 18:00",
           "level": "약간 붐빔",
-          "population_min": 6500,
-          "population_max": 7000
-        },
-        {
-          "time": "2026-09-24 19:00",
-          "level": "약간 붐빔",
-          "population_min": 7000,
-          "population_max": 7500
-        },
-        {
-          "time": "2026-09-24 20:00",
-          "level": "약간 붐빔",
-          "population_min": 7000,
-          "population_max": 7500
-        },
-        {
-          "time": "2026-09-24 21:00",
-          "level": "보통",
           "population_min": 6000,
           "population_max": 6500
         },
         {
-          "time": "2026-09-24 22:00",
+          "time": "2026-09-24 19:00",
+          "level": "약간 붐빔",
+          "population_min": 6000,
+          "population_max": 6500
+        },
+        {
+          "time": "2026-09-24 20:00",
+          "level": "약간 붐빔",
+          "population_min": 6500,
+          "population_max": 7000
+        },
+        {
+          "time": "2026-09-24 21:00",
           "level": "보통",
-          "population_min": 5000,
-          "population_max": 5500
+          "population_min": 5500,
+          "population_max": 6000
+        },
+        {
+          "time": "2026-09-24 22:00",
+          "level": "여유",
+          "population_min": 3500,
+          "population_max": 4000
         },
         {
           "time": "2026-09-24 23:00",
           "level": "여유",
-          "population_min": 3500,
-          "population_max": 4000
+          "population_min": 2500,
+          "population_max": 3000
+        },
+        {
+          "time": "2026-09-25 00:00",
+          "level": "여유",
+          "population_min": 1500,
+          "population_max": 2000
         }
       ]
     },
@@ -509,21 +509,15 @@
       "status": "ok",
       "error": null,
       "area_nm": "잠실역",
-      "congest_level": "여유",
-      "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
-      "population_min": 18000,
-      "population_max": 20000,
-      "updated_at": "2026-09-24 10:45",
+      "congest_level": "보통",
+      "congest_message": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
+      "population_min": 24000,
+      "population_max": 26000,
+      "updated_at": "2026-09-24 11:45",
       "forecast": [
         {
-          "time": "2026-09-24 12:00",
-          "level": "보통",
-          "population_min": 24000,
-          "population_max": 26000
-        },
-        {
           "time": "2026-09-24 13:00",
-          "level": "보통",
+          "level": "약간 붐빔",
           "population_min": 28000,
           "population_max": 30000
         },
@@ -554,38 +548,44 @@
         {
           "time": "2026-09-24 18:00",
           "level": "약간 붐빔",
-          "population_min": 34000,
-          "population_max": 36000
+          "population_min": 36000,
+          "population_max": 38000
         },
         {
           "time": "2026-09-24 19:00",
           "level": "약간 붐빔",
-          "population_min": 30000,
-          "population_max": 32000
+          "population_min": 32000,
+          "population_max": 34000
         },
         {
           "time": "2026-09-24 20:00",
           "level": "보통",
-          "population_min": 24000,
-          "population_max": 26000
+          "population_min": 28000,
+          "population_max": 30000
         },
         {
           "time": "2026-09-24 21:00",
-          "level": "여유",
-          "population_min": 18000,
-          "population_max": 20000
+          "level": "보통",
+          "population_min": 20000,
+          "population_max": 22000
         },
         {
           "time": "2026-09-24 22:00",
           "level": "여유",
-          "population_min": 10000,
-          "population_max": 12000
+          "population_min": 12000,
+          "population_max": 14000
         },
         {
           "time": "2026-09-24 23:00",
           "level": "여유",
-          "population_min": 6000,
-          "population_max": 6500
+          "population_min": 7500,
+          "population_max": 8000
+        },
+        {
+          "time": "2026-09-25 00:00",
+          "level": "여유",
+          "population_min": 3500,
+          "population_max": 4000
         }
       ]
     },
@@ -593,18 +593,12 @@
       "status": "ok",
       "error": null,
       "area_nm": "잠실롯데타워·석촌호수",
-      "congest_level": "여유",
-      "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
-      "population_min": 34000,
-      "population_max": 36000,
-      "updated_at": "2026-09-24 10:45",
+      "congest_level": "보통",
+      "congest_message": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
+      "population_min": 42000,
+      "population_max": 44000,
+      "updated_at": "2026-09-24 11:45",
       "forecast": [
-        {
-          "time": "2026-09-24 12:00",
-          "level": "보통",
-          "population_min": 46000,
-          "population_max": 48000
-        },
         {
           "time": "2026-09-24 13:00",
           "level": "보통",
@@ -620,56 +614,62 @@
         {
           "time": "2026-09-24 15:00",
           "level": "약간 붐빔",
-          "population_min": 64000,
-          "population_max": 66000
-        },
-        {
-          "time": "2026-09-24 16:00",
-          "level": "약간 붐빔",
-          "population_min": 66000,
-          "population_max": 68000
-        },
-        {
-          "time": "2026-09-24 17:00",
-          "level": "약간 붐빔",
-          "population_min": 66000,
-          "population_max": 68000
-        },
-        {
-          "time": "2026-09-24 18:00",
-          "level": "약간 붐빔",
-          "population_min": 66000,
-          "population_max": 68000
-        },
-        {
-          "time": "2026-09-24 19:00",
-          "level": "약간 붐빔",
           "population_min": 62000,
           "population_max": 64000
         },
         {
-          "time": "2026-09-24 20:00",
+          "time": "2026-09-24 16:00",
           "level": "약간 붐빔",
-          "population_min": 56000,
-          "population_max": 58000
+          "population_min": 64000,
+          "population_max": 66000
+        },
+        {
+          "time": "2026-09-24 17:00",
+          "level": "약간 붐빔",
+          "population_min": 64000,
+          "population_max": 66000
+        },
+        {
+          "time": "2026-09-24 18:00",
+          "level": "약간 붐빔",
+          "population_min": 64000,
+          "population_max": 66000
+        },
+        {
+          "time": "2026-09-24 19:00",
+          "level": "약간 붐빔",
+          "population_min": 60000,
+          "population_max": 62000
+        },
+        {
+          "time": "2026-09-24 20:00",
+          "level": "보통",
+          "population_min": 54000,
+          "population_max": 56000
         },
         {
           "time": "2026-09-24 21:00",
           "level": "보통",
-          "population_min": 46000,
-          "population_max": 48000
+          "population_min": 44000,
+          "population_max": 46000
         },
         {
           "time": "2026-09-24 22:00",
           "level": "여유",
-          "population_min": 36000,
-          "population_max": 38000
+          "population_min": 32000,
+          "population_max": 34000
         },
         {
           "time": "2026-09-24 23:00",
           "level": "여유",
-          "population_min": 20000,
-          "population_max": 22000
+          "population_min": 22000,
+          "population_max": 24000
+        },
+        {
+          "time": "2026-09-25 00:00",
+          "level": "여유",
+          "population_min": 12000,
+          "population_max": 14000
         }
       ]
     },
@@ -679,61 +679,55 @@
       "area_nm": "압구정로데오거리",
       "congest_level": "여유",
       "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
-      "population_min": 22000,
-      "population_max": 24000,
-      "updated_at": "2026-09-24 10:45",
+      "population_min": 24000,
+      "population_max": 26000,
+      "updated_at": "2026-09-24 11:45",
       "forecast": [
         {
-          "time": "2026-09-24 12:00",
-          "level": "보통",
-          "population_min": 24000,
-          "population_max": 26000
-        },
-        {
           "time": "2026-09-24 13:00",
-          "level": "약간 붐빔",
+          "level": "보통",
           "population_min": 26000,
           "population_max": 28000
         },
         {
           "time": "2026-09-24 14:00",
-          "level": "약간 붐빔",
-          "population_min": 28000,
-          "population_max": 30000
+          "level": "보통",
+          "population_min": 26000,
+          "population_max": 28000
         },
         {
           "time": "2026-09-24 15:00",
-          "level": "약간 붐빔",
-          "population_min": 28000,
-          "population_max": 30000
+          "level": "보통",
+          "population_min": 26000,
+          "population_max": 28000
         },
         {
           "time": "2026-09-24 16:00",
-          "level": "약간 붐빔",
-          "population_min": 28000,
-          "population_max": 30000
+          "level": "보통",
+          "population_min": 26000,
+          "population_max": 28000
         },
         {
           "time": "2026-09-24 17:00",
-          "level": "보통",
-          "population_min": 26000,
-          "population_max": 28000
-        },
-        {
-          "time": "2026-09-24 18:00",
-          "level": "보통",
-          "population_min": 26000,
-          "population_max": 28000
-        },
-        {
-          "time": "2026-09-24 19:00",
           "level": "보통",
           "population_min": 24000,
           "population_max": 26000
         },
         {
-          "time": "2026-09-24 20:00",
+          "time": "2026-09-24 18:00",
           "level": "보통",
+          "population_min": 24000,
+          "population_max": 26000
+        },
+        {
+          "time": "2026-09-24 19:00",
+          "level": "보통",
+          "population_min": 22000,
+          "population_max": 24000
+        },
+        {
+          "time": "2026-09-24 20:00",
+          "level": "여유",
           "population_min": 20000,
           "population_max": 22000
         },
@@ -746,14 +740,20 @@
         {
           "time": "2026-09-24 22:00",
           "level": "여유",
-          "population_min": 16000,
-          "population_max": 18000
+          "population_min": 14000,
+          "population_max": 16000
         },
         {
           "time": "2026-09-24 23:00",
           "level": "여유",
-          "population_min": 14000,
-          "population_max": 16000
+          "population_min": 12000,
+          "population_max": 14000
+        },
+        {
+          "time": "2026-09-25 00:00",
+          "level": "여유",
+          "population_min": 10000,
+          "population_max": 12000
         }
       ]
     },
@@ -763,27 +763,21 @@
       "area_nm": "건대입구역",
       "congest_level": "여유",
       "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
-      "population_min": 20000,
-      "population_max": 22000,
-      "updated_at": "2026-09-24 10:45",
+      "population_min": 22000,
+      "population_max": 24000,
+      "updated_at": "2026-09-24 11:45",
       "forecast": [
         {
-          "time": "2026-09-24 12:00",
+          "time": "2026-09-24 13:00",
           "level": "보통",
           "population_min": 24000,
           "population_max": 26000
         },
         {
-          "time": "2026-09-24 13:00",
+          "time": "2026-09-24 14:00",
           "level": "보통",
           "population_min": 26000,
           "population_max": 28000
-        },
-        {
-          "time": "2026-09-24 14:00",
-          "level": "약간 붐빔",
-          "population_min": 28000,
-          "population_max": 30000
         },
         {
           "time": "2026-09-24 15:00",
@@ -794,8 +788,8 @@
         {
           "time": "2026-09-24 16:00",
           "level": "약간 붐빔",
-          "population_min": 30000,
-          "population_max": 32000
+          "population_min": 28000,
+          "population_max": 30000
         },
         {
           "time": "2026-09-24 17:00",
@@ -806,20 +800,20 @@
         {
           "time": "2026-09-24 18:00",
           "level": "약간 붐빔",
-          "population_min": 32000,
-          "population_max": 34000
+          "population_min": 30000,
+          "population_max": 32000
         },
         {
           "time": "2026-09-24 19:00",
-          "level": "붐빔",
+          "level": "약간 붐빔",
           "population_min": 32000,
           "population_max": 34000
         },
         {
           "time": "2026-09-24 20:00",
           "level": "약간 붐빔",
-          "population_min": 32000,
-          "population_max": 34000
+          "population_min": 30000,
+          "population_max": 32000
         },
         {
           "time": "2026-09-24 21:00",
@@ -838,6 +832,12 @@
           "level": "보통",
           "population_min": 26000,
           "population_max": 28000
+        },
+        {
+          "time": "2026-09-25 00:00",
+          "level": "여유",
+          "population_min": 22000,
+          "population_max": 24000
         }
       ]
     },
@@ -849,25 +849,19 @@
       "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
       "population_min": 26000,
       "population_max": 28000,
-      "updated_at": "2026-09-24 10:45",
+      "updated_at": "2026-09-24 11:45",
       "forecast": [
         {
-          "time": "2026-09-24 12:00",
-          "level": "보통",
+          "time": "2026-09-24 13:00",
+          "level": "약간 붐빔",
           "population_min": 30000,
           "population_max": 32000
         },
         {
-          "time": "2026-09-24 13:00",
+          "time": "2026-09-24 14:00",
           "level": "약간 붐빔",
           "population_min": 32000,
           "population_max": 34000
-        },
-        {
-          "time": "2026-09-24 14:00",
-          "level": "약간 붐빔",
-          "population_min": 34000,
-          "population_max": 36000
         },
         {
           "time": "2026-09-24 15:00",
@@ -878,20 +872,20 @@
         {
           "time": "2026-09-24 16:00",
           "level": "약간 붐빔",
-          "population_min": 34000,
-          "population_max": 36000
+          "population_min": 32000,
+          "population_max": 34000
         },
         {
           "time": "2026-09-24 17:00",
           "level": "약간 붐빔",
-          "population_min": 34000,
-          "population_max": 36000
+          "population_min": 32000,
+          "population_max": 34000
         },
         {
           "time": "2026-09-24 18:00",
-          "level": "붐빔",
-          "population_min": 36000,
-          "population_max": 38000
+          "level": "약간 붐빔",
+          "population_min": 34000,
+          "population_max": 36000
         },
         {
           "time": "2026-09-24 19:00",
@@ -908,8 +902,8 @@
         {
           "time": "2026-09-24 21:00",
           "level": "약간 붐빔",
-          "population_min": 32000,
-          "population_max": 34000
+          "population_min": 30000,
+          "population_max": 32000
         },
         {
           "time": "2026-09-24 22:00",
@@ -922,6 +916,12 @@
           "level": "여유",
           "population_min": 24000,
           "population_max": 26000
+        },
+        {
+          "time": "2026-09-25 00:00",
+          "level": "여유",
+          "population_min": 20000,
+          "population_max": 22000
         }
       ]
     },
@@ -931,57 +931,51 @@
       "area_nm": "종로·청계 관광특구",
       "congest_level": "보통",
       "congest_message": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
-      "population_min": 28000,
-      "population_max": 30000,
-      "updated_at": "2026-09-24 10:45",
+      "population_min": 30000,
+      "population_max": 32000,
+      "updated_at": "2026-09-24 11:45",
       "forecast": [
         {
-          "time": "2026-09-24 12:00",
+          "time": "2026-09-24 13:00",
           "level": "보통",
           "population_min": 32000,
           "population_max": 34000
         },
         {
-          "time": "2026-09-24 13:00",
-          "level": "약간 붐빔",
-          "population_min": 36000,
-          "population_max": 38000
-        },
-        {
           "time": "2026-09-24 14:00",
-          "level": "약간 붐빔",
-          "population_min": 38000,
-          "population_max": 40000
-        },
-        {
-          "time": "2026-09-24 15:00",
-          "level": "약간 붐빔",
-          "population_min": 38000,
-          "population_max": 40000
-        },
-        {
-          "time": "2026-09-24 16:00",
-          "level": "약간 붐빔",
-          "population_min": 36000,
-          "population_max": 38000
-        },
-        {
-          "time": "2026-09-24 17:00",
           "level": "보통",
           "population_min": 34000,
           "population_max": 36000
         },
         {
-          "time": "2026-09-24 18:00",
+          "time": "2026-09-24 15:00",
+          "level": "보통",
+          "population_min": 36000,
+          "population_max": 38000
+        },
+        {
+          "time": "2026-09-24 16:00",
+          "level": "보통",
+          "population_min": 34000,
+          "population_max": 36000
+        },
+        {
+          "time": "2026-09-24 17:00",
           "level": "보통",
           "population_min": 32000,
           "population_max": 34000
         },
         {
-          "time": "2026-09-24 19:00",
+          "time": "2026-09-24 18:00",
           "level": "보통",
           "population_min": 28000,
           "population_max": 30000
+        },
+        {
+          "time": "2026-09-24 19:00",
+          "level": "여유",
+          "population_min": 26000,
+          "population_max": 28000
         },
         {
           "time": "2026-09-24 20:00",
@@ -992,20 +986,26 @@
         {
           "time": "2026-09-24 21:00",
           "level": "여유",
-          "population_min": 20000,
-          "population_max": 22000
+          "population_min": 18000,
+          "population_max": 20000
         },
         {
           "time": "2026-09-24 22:00",
           "level": "여유",
-          "population_min": 16000,
-          "population_max": 18000
+          "population_min": 14000,
+          "population_max": 16000
         },
         {
           "time": "2026-09-24 23:00",
           "level": "여유",
           "population_min": 12000,
           "population_max": 14000
+        },
+        {
+          "time": "2026-09-25 00:00",
+          "level": "여유",
+          "population_min": 10000,
+          "population_max": 12000
         }
       ]
     },
@@ -1015,27 +1015,21 @@
       "area_nm": "광화문·덕수궁",
       "congest_level": "여유",
       "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
-      "population_min": 26000,
-      "population_max": 28000,
-      "updated_at": "2026-09-24 10:45",
+      "population_min": 30000,
+      "population_max": 32000,
+      "updated_at": "2026-09-24 11:45",
       "forecast": [
-        {
-          "time": "2026-09-24 12:00",
-          "level": "보통",
-          "population_min": 28000,
-          "population_max": 30000
-        },
         {
           "time": "2026-09-24 13:00",
           "level": "보통",
-          "population_min": 30000,
-          "population_max": 32000
+          "population_min": 32000,
+          "population_max": 34000
         },
         {
           "time": "2026-09-24 14:00",
           "level": "보통",
-          "population_min": 30000,
-          "population_max": 32000
+          "population_min": 32000,
+          "population_max": 34000
         },
         {
           "time": "2026-09-24 15:00",
@@ -1064,32 +1058,38 @@
         {
           "time": "2026-09-24 19:00",
           "level": "여유",
-          "population_min": 18000,
-          "population_max": 20000
+          "population_min": 16000,
+          "population_max": 18000
         },
         {
           "time": "2026-09-24 20:00",
           "level": "여유",
-          "population_min": 14000,
-          "population_max": 16000
+          "population_min": 12000,
+          "population_max": 14000
         },
         {
           "time": "2026-09-24 21:00",
           "level": "여유",
-          "population_min": 10000,
-          "population_max": 12000
+          "population_min": 8500,
+          "population_max": 9000
         },
         {
           "time": "2026-09-24 22:00",
           "level": "여유",
-          "population_min": 8000,
-          "population_max": 8500
+          "population_min": 5500,
+          "population_max": 6000
         },
         {
           "time": "2026-09-24 23:00",
           "level": "여유",
-          "population_min": 7000,
-          "population_max": 7500
+          "population_min": 3500,
+          "population_max": 4000
+        },
+        {
+          "time": "2026-09-25 00:00",
+          "level": "여유",
+          "population_min": 3000,
+          "population_max": 3500
         }
       ]
     },
@@ -1097,18 +1097,12 @@
       "status": "ok",
       "error": null,
       "area_nm": "동대문 관광특구",
-      "congest_level": "여유",
-      "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
-      "population_min": 20000,
-      "population_max": 22000,
-      "updated_at": "2026-09-24 10:45",
+      "congest_level": "보통",
+      "congest_message": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
+      "population_min": 22000,
+      "population_max": 24000,
+      "updated_at": "2026-09-24 11:45",
       "forecast": [
-        {
-          "time": "2026-09-24 12:00",
-          "level": "보통",
-          "population_min": 22000,
-          "population_max": 24000
-        },
         {
           "time": "2026-09-24 13:00",
           "level": "보통",
@@ -1118,20 +1112,20 @@
         {
           "time": "2026-09-24 14:00",
           "level": "보통",
-          "population_min": 24000,
-          "population_max": 26000
+          "population_min": 26000,
+          "population_max": 28000
         },
         {
           "time": "2026-09-24 15:00",
-          "level": "보통",
+          "level": "약간 붐빔",
           "population_min": 26000,
           "population_max": 28000
         },
         {
           "time": "2026-09-24 16:00",
           "level": "보통",
-          "population_min": 24000,
-          "population_max": 26000
+          "population_min": 26000,
+          "population_max": 28000
         },
         {
           "time": "2026-09-24 17:00",
@@ -1166,11 +1160,17 @@
         {
           "time": "2026-09-24 22:00",
           "level": "여유",
+          "population_min": 18000,
+          "population_max": 20000
+        },
+        {
+          "time": "2026-09-24 23:00",
+          "level": "여유",
           "population_min": 16000,
           "population_max": 18000
         },
         {
-          "time": "2026-09-24 23:00",
+          "time": "2026-09-25 00:00",
           "level": "여유",
           "population_min": 16000,
           "population_max": 18000
@@ -1183,16 +1183,10 @@
       "area_nm": "인사동",
       "congest_level": "보통",
       "congest_message": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
-      "population_min": 14000,
-      "population_max": 16000,
-      "updated_at": "2026-09-24 10:45",
+      "population_min": 16000,
+      "population_max": 18000,
+      "updated_at": "2026-09-24 11:45",
       "forecast": [
-        {
-          "time": "2026-09-24 12:00",
-          "level": "약간 붐빔",
-          "population_min": 18000,
-          "population_max": 20000
-        },
         {
           "time": "2026-09-24 13:00",
           "level": "약간 붐빔",
@@ -1202,20 +1196,20 @@
         {
           "time": "2026-09-24 14:00",
           "level": "약간 붐빔",
-          "population_min": 22000,
-          "population_max": 24000
+          "population_min": 20000,
+          "population_max": 22000
         },
         {
           "time": "2026-09-24 15:00",
           "level": "약간 붐빔",
-          "population_min": 22000,
-          "population_max": 24000
+          "population_min": 20000,
+          "population_max": 22000
         },
         {
           "time": "2026-09-24 16:00",
           "level": "약간 붐빔",
-          "population_min": 22000,
-          "population_max": 24000
+          "population_min": 20000,
+          "population_max": 22000
         },
         {
           "time": "2026-09-24 17:00",
@@ -1225,39 +1219,45 @@
         },
         {
           "time": "2026-09-24 18:00",
-          "level": "약간 붐빔",
+          "level": "보통",
           "population_min": 18000,
           "population_max": 20000
         },
         {
           "time": "2026-09-24 19:00",
           "level": "보통",
-          "population_min": 16000,
-          "population_max": 18000
+          "population_min": 14000,
+          "population_max": 16000
         },
         {
           "time": "2026-09-24 20:00",
-          "level": "보통",
+          "level": "여유",
           "population_min": 12000,
           "population_max": 14000
         },
         {
           "time": "2026-09-24 21:00",
           "level": "여유",
-          "population_min": 10000,
-          "population_max": 12000
+          "population_min": 9500,
+          "population_max": 10000
         },
         {
           "time": "2026-09-24 22:00",
           "level": "여유",
-          "population_min": 9000,
-          "population_max": 9500
+          "population_min": 7500,
+          "population_max": 8000
         },
         {
           "time": "2026-09-24 23:00",
           "level": "여유",
-          "population_min": 7000,
-          "population_max": 7500
+          "population_min": 6000,
+          "population_max": 6500
+        },
+        {
+          "time": "2026-09-25 00:00",
+          "level": "여유",
+          "population_min": 4500,
+          "population_max": 5000
         }
       ]
     },
@@ -1267,19 +1267,13 @@
       "area_nm": "익선동",
       "congest_level": "여유",
       "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
-      "population_min": 7500,
-      "population_max": 8000,
-      "updated_at": "2026-09-24 10:45",
+      "population_min": 9000,
+      "population_max": 9500,
+      "updated_at": "2026-09-24 11:45",
       "forecast": [
         {
-          "time": "2026-09-24 12:00",
-          "level": "보통",
-          "population_min": 9500,
-          "population_max": 10000
-        },
-        {
           "time": "2026-09-24 13:00",
-          "level": "약간 붐빔",
+          "level": "보통",
           "population_min": 10000,
           "population_max": 12000
         },
@@ -1297,21 +1291,21 @@
         },
         {
           "time": "2026-09-24 16:00",
-          "level": "붐빔",
-          "population_min": 14000,
-          "population_max": 16000
+          "level": "약간 붐빔",
+          "population_min": 12000,
+          "population_max": 14000
         },
         {
           "time": "2026-09-24 17:00",
-          "level": "붐빔",
+          "level": "약간 붐빔",
           "population_min": 14000,
           "population_max": 16000
         },
         {
           "time": "2026-09-24 18:00",
-          "level": "붐빔",
-          "population_min": 14000,
-          "population_max": 16000
+          "level": "약간 붐빔",
+          "population_min": 12000,
+          "population_max": 14000
         },
         {
           "time": "2026-09-24 19:00",
@@ -1342,6 +1336,12 @@
           "level": "여유",
           "population_min": 6500,
           "population_max": 7000
+        },
+        {
+          "time": "2026-09-25 00:00",
+          "level": "여유",
+          "population_min": 5500,
+          "population_max": 6000
         }
       ]
     },
@@ -1351,25 +1351,19 @@
       "area_nm": "연남동",
       "congest_level": "여유",
       "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
-      "population_min": 6500,
-      "population_max": 7000,
-      "updated_at": "2026-09-24 10:45",
+      "population_min": 7500,
+      "population_max": 8000,
+      "updated_at": "2026-09-24 11:45",
       "forecast": [
-        {
-          "time": "2026-09-24 12:00",
-          "level": "여유",
-          "population_min": 7500,
-          "population_max": 8000
-        },
         {
           "time": "2026-09-24 13:00",
           "level": "보통",
-          "population_min": 9000,
-          "population_max": 9500
+          "population_min": 8500,
+          "population_max": 9000
         },
         {
           "time": "2026-09-24 14:00",
-          "level": "보통",
+          "level": "약간 붐빔",
           "population_min": 9500,
           "population_max": 10000
         },
@@ -1424,8 +1418,14 @@
         {
           "time": "2026-09-24 23:00",
           "level": "여유",
-          "population_min": 8000,
-          "population_max": 8500
+          "population_min": 7500,
+          "population_max": 8000
+        },
+        {
+          "time": "2026-09-25 00:00",
+          "level": "여유",
+          "population_min": 7000,
+          "population_max": 7500
         }
       ]
     },
@@ -1433,71 +1433,65 @@
       "status": "ok",
       "error": null,
       "area_nm": "서울숲공원",
-      "congest_level": "여유",
-      "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
-      "population_min": 4000,
-      "population_max": 4500,
-      "updated_at": "2026-09-24 10:45",
+      "congest_level": "약간 붐빔",
+      "congest_message": "사람들이 몰려있을 가능성이 크고 붐빈다고 느낄 수 있어요. 인구밀도가 높은 구간에서는 도보 이동시 부딪힘이 발생할 수 있어요.",
+      "population_min": 5000,
+      "population_max": 5500,
+      "updated_at": "2026-09-24 11:45",
       "forecast": [
         {
-          "time": "2026-09-24 12:00",
+          "time": "2026-09-24 13:00",
+          "level": "붐빔",
+          "population_min": 5500,
+          "population_max": 6000
+        },
+        {
+          "time": "2026-09-24 14:00",
+          "level": "붐빔",
+          "population_min": 5500,
+          "population_max": 6000
+        },
+        {
+          "time": "2026-09-24 15:00",
+          "level": "붐빔",
+          "population_min": 6500,
+          "population_max": 7000
+        },
+        {
+          "time": "2026-09-24 16:00",
+          "level": "붐빔",
+          "population_min": 7000,
+          "population_max": 7500
+        },
+        {
+          "time": "2026-09-24 17:00",
+          "level": "붐빔",
+          "population_min": 7000,
+          "population_max": 7500
+        },
+        {
+          "time": "2026-09-24 18:00",
+          "level": "붐빔",
+          "population_min": 5500,
+          "population_max": 6000
+        },
+        {
+          "time": "2026-09-24 19:00",
           "level": "약간 붐빔",
           "population_min": 4000,
           "population_max": 4500
         },
         {
-          "time": "2026-09-24 13:00",
-          "level": "약간 붐빔",
-          "population_min": 4500,
-          "population_max": 5000
-        },
-        {
-          "time": "2026-09-24 14:00",
-          "level": "약간 붐빔",
-          "population_min": 4500,
-          "population_max": 5000
-        },
-        {
-          "time": "2026-09-24 15:00",
-          "level": "약간 붐빔",
-          "population_min": 5000,
-          "population_max": 5500
-        },
-        {
-          "time": "2026-09-24 16:00",
-          "level": "붐빔",
-          "population_min": 5000,
-          "population_max": 5500
-        },
-        {
-          "time": "2026-09-24 17:00",
-          "level": "붐빔",
-          "population_min": 5000,
-          "population_max": 5500
-        },
-        {
-          "time": "2026-09-24 18:00",
-          "level": "약간 붐빔",
-          "population_min": 4500,
-          "population_max": 5000
-        },
-        {
-          "time": "2026-09-24 19:00",
+          "time": "2026-09-24 20:00",
           "level": "보통",
           "population_min": 3500,
           "population_max": 4000
         },
         {
-          "time": "2026-09-24 20:00",
-          "level": "여유",
-          "population_min": 3000,
-          "population_max": 3500
-        },
-        {
           "time": "2026-09-24 21:00",
-          "level": "여유",
-          "population_min": 3000,
-          "population_max": 3500
+          "level": "보통",
+          "population_min": 3500,
+          "population_max": 4000
         },
         {
           "time": "2026-09-24 22:00",
@@ -1510,6 +1504,12 @@
           "level": "여유",
           "population_min": 2500,
           "population_max": 3000
+        },
+        {
+          "time": "2026-09-25 00:00",
+          "level": "여유",
+          "population_min": 2000,
+          "population_max": 2500
         }
       ]
     },
@@ -1519,27 +1519,21 @@
       "area_nm": "가로수길",
       "congest_level": "보통",
       "congest_message": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
-      "population_min": 20000,
-      "population_max": 22000,
-      "updated_at": "2026-09-24 10:45",
+      "population_min": 22000,
+      "population_max": 24000,
+      "updated_at": "2026-09-24 11:45",
       "forecast": [
         {
-          "time": "2026-09-24 12:00",
-          "level": "보통",
-          "population_min": 22000,
-          "population_max": 24000
-        },
-        {
           "time": "2026-09-24 13:00",
-          "level": "보통",
-          "population_min": 24000,
-          "population_max": 26000
+          "level": "약간 붐빔",
+          "population_min": 26000,
+          "population_max": 28000
         },
         {
           "time": "2026-09-24 14:00",
           "level": "약간 붐빔",
-          "population_min": 24000,
-          "population_max": 26000
+          "population_min": 26000,
+          "population_max": 28000
         },
         {
           "time": "2026-09-24 15:00",
@@ -1562,8 +1556,8 @@
         {
           "time": "2026-09-24 18:00",
           "level": "약간 붐빔",
-          "population_min": 24000,
-          "population_max": 26000
+          "population_min": 26000,
+          "population_max": 28000
         },
         {
           "time": "2026-09-24 19:00",
@@ -1574,14 +1568,14 @@
         {
           "time": "2026-09-24 20:00",
           "level": "보통",
-          "population_min": 20000,
-          "population_max": 22000
+          "population_min": 22000,
+          "population_max": 24000
         },
         {
           "time": "2026-09-24 21:00",
-          "level": "여유",
-          "population_min": 18000,
-          "population_max": 20000
+          "level": "보통",
+          "population_min": 20000,
+          "population_max": 22000
         },
         {
           "time": "2026-09-24 22:00",
@@ -1592,8 +1586,14 @@
         {
           "time": "2026-09-24 23:00",
           "level": "여유",
-          "population_min": 12000,
-          "population_max": 14000
+          "population_min": 14000,
+          "population_max": 16000
+        },
+        {
+          "time": "2026-09-25 00:00",
+          "level": "여유",
+          "population_min": 10000,
+          "population_max": 12000
         }
       ]
     },
@@ -1603,45 +1603,39 @@
       "area_nm": "청담동 명품거리",
       "congest_level": "여유",
       "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
-      "population_min": 2500,
-      "population_max": 3000,
-      "updated_at": "2026-09-24 10:45",
+      "population_min": 3000,
+      "population_max": 3500,
+      "updated_at": "2026-09-24 11:45",
       "forecast": [
         {
-          "time": "2026-09-24 12:00",
+          "time": "2026-09-24 13:00",
           "level": "여유",
           "population_min": 3000,
           "population_max": 3500
         },
         {
-          "time": "2026-09-24 13:00",
+          "time": "2026-09-24 14:00",
           "level": "여유",
           "population_min": 3500,
           "population_max": 4000
         },
         {
-          "time": "2026-09-24 14:00",
-          "level": "여유",
-          "population_min": 4000,
-          "population_max": 4500
-        },
-        {
           "time": "2026-09-24 15:00",
           "level": "여유",
-          "population_min": 4000,
-          "population_max": 4500
+          "population_min": 3500,
+          "population_max": 4000
         },
         {
           "time": "2026-09-24 16:00",
           "level": "여유",
-          "population_min": 4000,
-          "population_max": 4500
+          "population_min": 3500,
+          "population_max": 4000
         },
         {
           "time": "2026-09-24 17:00",
           "level": "여유",
-          "population_min": 4000,
-          "population_max": 4500
+          "population_min": 3500,
+          "population_max": 4000
         },
         {
           "time": "2026-09-24 18:00",
@@ -1652,8 +1646,8 @@
         {
           "time": "2026-09-24 19:00",
           "level": "여유",
-          "population_min": 3500,
-          "population_max": 4000
+          "population_min": 3000,
+          "population_max": 3500
         },
         {
           "time": "2026-09-24 20:00",
@@ -1675,6 +1669,12 @@
         },
         {
           "time": "2026-09-24 23:00",
+          "level": "여유",
+          "population_min": 1500,
+          "population_max": 2000
+        },
+        {
+          "time": "2026-09-25 00:00",
           "level": "여유",
           "population_min": 1500,
           "population_max": 2000
