@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-09-26T18:13:37.120527+09:00",
+  "collected_at": "2026-09-26T19:16:49.243289+09:00",
   "places": {
     "강남역": {
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "네트워크 오류: <urlopen error timed out>",
       "area_nm": "강남역",
       "congest_level": "여유",
       "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
@@ -86,8 +86,8 @@
       ]
     },
     "홍대입구역(2호선)": {
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "네트워크 오류: <urlopen error timed out>",
       "area_nm": "홍대입구역(2호선)",
       "congest_level": "약간 붐빔",
       "congest_message": "사람들이 몰려있을 가능성이 크고 붐빈다고 느낄 수 있어요. 인구밀도가 높은 구간에서는 도보 이동시 부딪힘이 발생할 수 있어요.",
@@ -170,8 +170,8 @@
       ]
     },
     "이태원 관광특구": {
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "네트워크 오류: <urlopen error timed out>",
       "area_nm": "이태원 관광특구",
       "congest_level": "여유",
       "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
@@ -254,8 +254,8 @@
       ]
     },
     "명동 관광특구": {
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "네트워크 오류: <urlopen error timed out>",
       "area_nm": "명동 관광특구",
       "congest_level": "보통",
       "congest_message": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
@@ -338,8 +338,8 @@
       ]
     },
     "성수카페거리": {
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "네트워크 오류: <urlopen error timed out>",
       "area_nm": "성수카페거리",
       "congest_level": "여유",
       "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
@@ -422,8 +422,8 @@
       ]
     },
     "여의도한강공원": {
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "네트워크 오류: <urlopen error timed out>",
       "area_nm": "여의도한강공원",
       "congest_level": "약간 붐빔",
       "congest_message": "사람들이 몰려있을 가능성이 크고 붐빈다고 느낄 수 있어요. 인구밀도가 높은 구간에서는 도보 이동시 부딪힘이 발생할 수 있어요.",
@@ -506,8 +506,8 @@
       ]
     },
     "잠실역": {
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "네트워크 오류: <urlopen error timed out>",
       "area_nm": "잠실역",
       "congest_level": "붐빔",
       "congest_message": "사람들이 몰려있을 가능성이 매우 크고 많이 붐빈다고 느낄 수 있어요. 인구밀도가 높은 구간에서는 도보 이동시 부딪힘이 발생할 수 있어요.",
@@ -590,8 +590,8 @@
       ]
     },
     "잠실롯데타워·석촌호수": {
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "네트워크 오류: <urlopen error timed out>",
       "area_nm": "잠실롯데타워·석촌호수",
       "congest_level": "붐빔",
       "congest_message": "사람들이 몰려있을 가능성이 매우 크고 많이 붐빈다고 느낄 수 있어요. 인구밀도가 높은 구간에서는 도보 이동시 부딪힘이 발생할 수 있어요.",
@@ -674,8 +674,8 @@
       ]
     },
     "압구정로데오거리": {
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "네트워크 오류: <urlopen error timed out>",
       "area_nm": "압구정로데오거리",
       "congest_level": "여유",
       "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
@@ -758,8 +758,8 @@
       ]
     },
     "건대입구역": {
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "네트워크 오류: <urlopen error timed out>",
       "area_nm": "건대입구역",
       "congest_level": "약간 붐빔",
       "congest_message": "사람들이 몰려있을 가능성이 크고 붐빈다고 느낄 수 있어요. 인구밀도가 높은 구간에서는 도보 이동시 부딪힘이 발생할 수 있어요.",
@@ -842,8 +842,8 @@
       ]
     },
     "신촌·이대역": {
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "네트워크 오류: <urlopen error timed out>",
       "area_nm": "신촌·이대역",
       "congest_level": "여유",
       "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
@@ -926,8 +926,8 @@
       ]
     },
     "종로·청계 관광특구": {
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "네트워크 오류: <urlopen error timed out>",
       "area_nm": "종로·청계 관광특구",
       "congest_level": "여유",
       "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
@@ -1010,8 +1010,8 @@
       ]
     },
     "광화문·덕수궁": {
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "네트워크 오류: <urlopen error timed out>",
       "area_nm": "광화문·덕수궁",
       "congest_level": "여유",
       "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
@@ -1094,8 +1094,8 @@
       ]
     },
     "동대문 관광특구": {
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "네트워크 오류: <urlopen error timed out>",
       "area_nm": "동대문 관광특구",
       "congest_level": "여유",
       "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
@@ -1178,8 +1178,8 @@
       ]
     },
     "인사동": {
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "네트워크 오류: <urlopen error timed out>",
       "area_nm": "인사동",
       "congest_level": "여유",
       "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
@@ -1262,8 +1262,8 @@
       ]
     },
     "익선동": {
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "네트워크 오류: <urlopen error timed out>",
       "area_nm": "익선동",
       "congest_level": "보통",
       "congest_message": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
@@ -1346,8 +1346,8 @@
       ]
     },
     "연남동": {
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "네트워크 오류: <urlopen error timed out>",
       "area_nm": "연남동",
       "congest_level": "보통",
       "congest_message": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
@@ -1430,8 +1430,8 @@
       ]
     },
     "서울숲공원": {
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "네트워크 오류: <urlopen error timed out>",
       "area_nm": "서울숲공원",
       "congest_level": "붐빔",
       "congest_message": "사람들이 몰려있을 가능성이 매우 크고 많이 붐빈다고 느낄 수 있어요. 인구밀도가 높은 구간에서는 도보 이동시 부딪힘이 발생할 수 있어요.",
@@ -1514,8 +1514,8 @@
       ]
     },
     "가로수길": {
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "네트워크 오류: <urlopen error timed out>",
       "area_nm": "가로수길",
       "congest_level": "여유",
       "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
@@ -1598,8 +1598,8 @@
       ]
     },
     "청담동 명품거리": {
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "네트워크 오류: <urlopen error timed out>",
       "area_nm": "청담동 명품거리",
       "congest_level": "여유",
       "congest_message": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
